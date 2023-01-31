@@ -100,7 +100,7 @@ Vs Code 上 Git 的插件：Git History/Git Graph，侧边栏的插件处即可�
 
   ![git ignore](./png/git-ignore.png)
 
-## GitHub 的基本用法
+<!-- ## GitHub 的基本用法
 
 - 创建新的 Repository
 
@@ -108,7 +108,7 @@ Vs Code 上 Git 的插件：Git History/Git Graph，侧边栏的插件处即可�
 
 - 区分私有/公有项目
 
-  ![private and public](./png/github-private-public.png)
+  ![private and public](./png/github-private-public.png) -->
 
 ## 引用
 

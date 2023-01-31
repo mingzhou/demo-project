@@ -58,7 +58,9 @@ Vs Code 上 Git 的插件：Git History/Git Graph，侧边栏的插件处即可�
 
   ![git commit](./png/git-commit.png)
 
-- `git reset --soft HEAD^` 撤回本次提交的内容（--soft 表示不删除工作空间代码；--hard 表示删除工作空间代码；HEAD^ 表示回到上一个版本（在 push 之前你可能有多次 commit），也可以写成 DEAD~1）
+- `git reset --soft HEAD^` 撤回本次提交的内容（--soft 表示不删除工作空间代码；--hard 表示删除工作空间代码；HEAD^ 表示回到上一个版本（在 push 之前你可能有多次 commit），也可以写成 DEAD~1）**该命令比较危险，慎用！**
+
+  ![git undo commit](./png/git-undo-commit.png)
 
 - `git status` 查看仓库当前状态，显示变更文件
 

@@ -66,6 +66,18 @@ Vs Code 上 Git 的插件：Git History/Git Graph，侧边栏的插件处即可�
 
 - `git diff` 比较暂存区与工作区的差异
 
+#### commit 信息规范
+
+- INIT: initial 初始化
+
+- ENH: enhance 新增功能
+
+- MNT：maintain 维护，某功能继续完成
+
+- BUG：bug 修复，描述 bug
+
+- REFACTOR： refactor 重构，描述重构思路
+
 ### 项目提交
 
 - :star: `git push` 上传代码至远程仓库

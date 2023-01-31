@@ -58,13 +58,11 @@ Vs Code 上 Git 的插件：Git History/Git Graph，侧边栏的插件处即可�
 
   ![git commit](./png/git-commit.png)
 
+- `git reset --soft HEAD^` 撤回本次提交的内容（--soft 表示不删除工作空间代码；--hard 表示删除工作空间代码；HEAD^ 表示回到上一个版本（在 push 之前你可能有多次 commit），也可以写成 DEAD~1）
+
 - `git status` 查看仓库当前状态，显示变更文件
 
 - `git diff` 比较暂存区与工作区的差异
-
-- `git stash`
-
-  ![git stash](./png/git-stash.png)
 
 ### 项目提交
 

@@ -92,5 +92,11 @@ QI_HOME=${HOME}/qi_conf
     2. logs输出, 按任务重定向(输出)运行日志文件, 提倡按任务名和日期区分开来, 便于查错和追溯
 
 
-这样的调用脚本, 可以放到cronjob, 可以放到集中调用脚本(参考NAS136/public/common_sh/bash_sample.sh), 也具备了放入airflow的要求
+这样的调用脚本, 可以放到cronjob, 可以放到集中调用脚本(参考NAS136/public/common_sh/bash_sample.sh), 也具备了放入airflow的要求, 简单流程图如下:
 
+```mermaid
+flowchart LR
+
+A[start] --> B[sleeper] --> C[input sensor] --> D[cmd task] --> E[output sensor] --> F[end]
+
+```

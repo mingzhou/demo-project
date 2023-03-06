@@ -86,6 +86,13 @@ QI_HOME=${HOME}/qi_conf
     3. ignore_miss_datas: 是否(强制)忽略数据缺失
 
 
+ - return code 函数返回码
+    用于判断函数正常异常, 一般返回有
+
+    1. bool类型: True/False/Exception
+    2. int类型: 0(正常), 非0(异常)
+
+
  - cmd 调用脚本
 
     1. 调用该任务的bash脚本, 若是python脚本, 推荐在函数入口使用click封装, 这样调用(传参)时与bash脚本一致
@@ -99,4 +106,5 @@ flowchart LR
 
 A[start] --> B[sleeper] --> C[input sensor] --> D[cmd task] --> E[output sensor] --> F[end]
 
+D --retry--> D
 ```

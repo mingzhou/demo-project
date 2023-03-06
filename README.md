@@ -5,3 +5,5 @@
 - [Git 的使用方法](./git_tutorial.md) 2023-01-30
 
 - [Vs Code 与 Python 环境](./vscode_and_py.md) 2023-03-06
+
+- [生产化标准](production_criterion.md.md) 2023-03-06
